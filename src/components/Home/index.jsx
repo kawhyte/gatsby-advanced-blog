@@ -18,7 +18,7 @@ const Home = ({ portfolios }) => (
     </Helmet>
     <Wrapper isHome>
       <Title>
-        Hello, Kenny!
+        Hello, I'm Kenny.
       </Title>
     </Wrapper>
     {portfolios.length >= 4 ? (
