@@ -10,9 +10,9 @@ const Portfolios = ({ data: { portfolios: { edges: portfolios } } }) => (
   <Wrapper>
     <Helmet>
       <title>
-        {`${PREFIX}PORTFOLIOS`}
+        {`${PREFIX}PROJECTS`}
       </title>
-      <meta name="og:title" content={`${PREFIX}PORTFOLIOS`} />
+      <meta name="og:title" content={`${PREFIX}PROJECTS`} />
     </Helmet>
     {portfolios.map(({ node: { frontmatter: { path, title, images = [] } } }) => {
       const [image = null] = images;
@@ -22,9 +22,9 @@ const Portfolios = ({ data: { portfolios: { edges: portfolios } } }) => (
           <PortfolioCard key={path}>
             <Link to={path}>
               {image.includes('//') ? (
-                <img src={image} alt="portfolio" />
+                <img src={image} alt="projects" />
               ) : (
-                <img src={require(`~/resources/${image}`)} alt="portfolio" />
+                <img src={require(`~/resources/${image}`)} alt="projects" />
               )}
               <h6>
                 {title}

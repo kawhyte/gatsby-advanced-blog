@@ -1,7 +1,7 @@
 ---
 path: "/post-3/"
-category: "test-33"
-tags: ["tag"]
+category: "kenny"
+tags: ["Kenny-tag"]
 title: "Lorem Ipsum"
 date: "2018-01-03T00:00:00.000Z"
 summary: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
