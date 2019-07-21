@@ -38,9 +38,9 @@ const Resume = ({
       <Clearfix>
         <Helmet>
           <title>
-            {`${PREFIX}RESUME`}
+            {`${PREFIX}ABOUT ME`}
           </title>
-          <meta name="og:title" content={`${PREFIX}RESUME`} />
+          <meta name="og:title" content={`${PREFIX}ABOUT ME`} />
         </Helmet>
         <Clearfix>
           <Button type="button" onClick={printPage}>
