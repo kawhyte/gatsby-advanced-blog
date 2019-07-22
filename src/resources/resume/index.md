@@ -16,4 +16,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   - Integrate Redux
     - Use Redux, Redux Saga, Reselect...
 
-## Book I love 
+## Books I love 

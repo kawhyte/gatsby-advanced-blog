@@ -1,7 +1,7 @@
 ---
 type: "portfolio"
-title: "Gatsby Advanced Blog"
-date: "2018-01-01T00:00:00.000Z"
+title: "Kenny test project"
+date: "2019-01-01T00:00:00.000Z"
 path: "/portfolios/portfolio-1/"
 images: [
   "test-1/1.png",
@@ -9,7 +9,7 @@ images: [
 ]
 ---
 
-# Gatsby Advanced Blog
+# Ken Advanced Blog
 
 ## What I did
 - Develop Gatsby Advanced Blog
@@ -20,4 +20,4 @@ images: [
 - Redux saga
 - ...
 
-[Go to Web Site →](https://github.com/wonism/gatsby-advanced-blog)
+[Go to Web Site →](https://github.com/kawhyte)

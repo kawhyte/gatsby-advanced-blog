@@ -33,7 +33,7 @@ const Card = ({
               lines={2}
               ellipsis={(
                 <span>
-                  ...
+                  .......
                 </span>
               )}
             >
