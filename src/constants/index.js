@@ -8,15 +8,15 @@ exports.RESUME = 'resume';
 // Site Information
 exports.NAME = 'Kenny Whyte';
 exports.TITLE = 'Kenny Whyte';
-exports.PREFIX = 'KENNY | ';
-exports.DESCRIPTION = 'Blog + Portfolio';
-exports.AUTHOR = 'kawhyte';
-exports.EMAIL = 'kawhyte@gmail.com';
+exports.PREFIX = 'Kenny\'s World | ';
+exports.DESCRIPTION = 'Blog + Projects';
+exports.AUTHOR = 'Kenny Whyte';
+exports.EMAIL = 'Software Developer | Amateur Astronomer | Weightlifter';
 exports.KEYWORDS = [
   'Gatsby',
   'ReactJS',
 ].join(', ');
-exports.SITE_URL = 'https://wonism.github.io';
+exports.SITE_URL = 'https://www.kennywhyte.com';
 exports.PROFILE = 'https://avatars3.githubusercontent.com/u/42737121?s=200&v=4';
 
 // Social

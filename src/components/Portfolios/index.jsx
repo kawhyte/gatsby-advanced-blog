@@ -10,9 +10,9 @@ const Portfolios = ({ data: { portfolios: { edges: portfolios } } }) => (
   <Wrapper>
     <Helmet>
       <title>
-        {`${PREFIX}PROJECTS`}
+        {`${PREFIX}Projects`}
       </title>
-      <meta name="og:title" content={`${PREFIX}PROJECTS`} />
+      <meta name="og:title" content={`${PREFIX}Projects`} />
     </Helmet>
     {portfolios.map(({ node: { frontmatter: { path, title, images = [] } } }) => {
       const [image = null] = images;

@@ -115,7 +115,7 @@ const Gnb = ({
   const { pathname } = location;
   const isPortfolio = pathname.replace(/\/$/, '').startsWith('/portfolios');
   const isHome = pathname.replace(/\/$/, '') === '';
-  const isResume = pathname.replace(/\/$/, '') === '/resume';
+  const isResume = pathname.replace(/\/$/, '') === '/aboutme';
   const isPost = !(isPortfolio || isHome || isResume);
 
   return (
@@ -174,7 +174,7 @@ const Gnb = ({
               </ListMenu>
             ) : null}
             <ListMenu>
-              <StyledLink to="/resume" className={isResume ? 'active' : ''} onClick={toggleMenu}>
+              <StyledLink to="/aboutme" className={isResume ? 'active' : ''} onClick={toggleMenu}>
                 About Me
               </StyledLink>
             </ListMenu>
@@ -274,7 +274,7 @@ const Gnb = ({
           </ListMenu>
         ) : null}
         <ListMenu>
-          <StyledLink to="/resume" className={isResume ? 'active' : ''}>
+          <StyledLink to="/aboutme" className={isResume ? 'active' : ''}>
             About Me
           </StyledLink>
         </ListMenu>
